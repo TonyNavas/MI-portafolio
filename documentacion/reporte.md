@@ -132,3 +132,125 @@ Para agregar un pie de pagina donde va informacion sobre el sitio, derechos de a
 **Asi se veria el pie de pagina**
 
 ![imgn](./img/pie.png)
+
+## Estilos css que utilice.
+```
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+html 
+{
+min-height: 100%;
+position: relative;
+}   
+#footer 
+{
+position: absolute;
+left: 0;
+right: 0;
+bottom: 0;
+width: 100%;
+background-color: black;
+color: white;
+text-align: center;
+}
+div
+{
+background-color:whitesmoke;
+border: 0px black solid;
+padding: 10px;
+width: 85%;
+margin: 0 auto;
+}
+#foto
+{
+border-radius: 50%;
+margin-bottom: 12px;
+margin-right: 30px;
+width: 170px;
+height: 170px;
+display: block;
+margin: auto;
+}
+#fotoencabesado
+{
+    display: block;
+    margin: auto;  
+}
+#header1 
+{
+padding: 50px;
+text-align: center;
+background: #43a3e4;
+color: white;
+font-size: 30px;
+margin: 0px;
+font-size: 18px;
+line-height: 25px;
+}
+h2{
+    text-align: center;
+}
+p
+{
+    color: #43a3e4;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+  }
+  fieldset
+  {
+      width: 80%;
+      display: block;
+      margin: auto;
+      margin-bottom: 10px;  
+  }
+#DatosAdicionales
+{
+display: block;
+ margin: auto;
+}
+#recomendacion
+{
+    border-radius: 50%;
+    margin-bottom: 12px;
+    margin-right: 30px;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+legend
+{
+    background-color:#43a3e4;
+padding: 5px;
+border-radius: 20px;
+font-weight: bold;
+}
+#navegador ul
+{
+list-style-type: none;
+text-align: center;
+}
+#navegador li{
+display: inline;
+text-align: center;
+margin: 0 10px 0 0;
+}
+#navegador li a 
+{
+padding: 2px 7px 2px 7px;
+color: #666;
+background-color:#eeeeee;
+border: 1px solid #ccc;
+text-decoration: none;
+}
+body
+{
+    background-image: url("../img/body3.webp");
+}
+```
