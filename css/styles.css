@@ -116,3 +116,12 @@ body
 {
     background-image: url("../img/body3.webp");
 }
+@font-face
+{
+    font-family: tony;
+    src: url(../Fuentes/Roboto-Medium.ttf);
+}
+p, h1, h2, fieldset, legend
+{
+    font-family: tony;
+}
